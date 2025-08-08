@@ -1,0 +1,83 @@
+body{
+    background-color:#FEDDD8;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+h3{
+
+    font-size: 25;
+    color:#724949;
+}
+
+#cute-btn {
+  background-color: #ffb6c1;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  font-size: 22px;
+  border-radius: 35px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  margin: 10px;
+  transition: color 0.3s
+}
+
+#cute-btn:hover {
+  color: #c24e5f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+body, html {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 90vh; /* Full viewport height */
+}
+
+/* Left side (Name) */
+.left {
+  flex: 1;
+  background-color: #D7E2E8;
+  padding: 40px;
+  font-family: 'Elsie', cursive;
+  display: flex; ;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Right side (Bio) */
+.right {
+  flex: 2;
+  background-color: #D7E2E8;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-down {
+text-align: center;
+padding: 2rem;
+background-color: #e8b6ff;
+}
+
+.scroll-down a {
+ color: #ffffff;
+ text-decoration: none;
+ font-size: 1.2rem;
+ transition: color 0.3s;
+}
+
+.scroll-down a:hover {
+ color: #9a26fa;
+}

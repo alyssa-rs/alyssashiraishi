@@ -24,6 +24,8 @@ h3{
 
 #cute-btn:hover {
   color: #c24e5f;
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 6px #f28482;
 }
 
 * {
@@ -55,15 +57,25 @@ body, html {
   justify-content: center;
 }
 
+
+
 /* Right side (Bio) */
 .right {
   flex: 2;
-  background-color: #D7E2E8;
+  background: linear-gradient(270deg, #D7E2E8, #dcd7e8, #f4e1ff, #D7E2E8);
+  background-size: 800% 800%;
+  animation: gradientMove 15s ease infinite;;
   padding: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+@keyframes gradientMove {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
 
 .scroll-down {
 text-align: center;
